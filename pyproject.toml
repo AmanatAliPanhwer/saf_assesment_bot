@@ -1,0 +1,17 @@
+[project]
+name = "saf-assesment-bot"
+version = "0.1.0"
+description = "A Streamlit web application that automates filling out the SAF Assessment portal form using data from an Excel file."
+readme = "README.md"
+license = { text = "MIT" }
+keywords = ["streamlit", "playwright", "excel"]
+authors = [
+    { name = "Amanat Ali", email = "alph702.12@gmail.com" },
+]
+requires-python = ">=3.13"
+dependencies = [
+    "openpyxl==3.1.5",
+    "pandas==2.2.3",
+    "pytest-playwright==0.7.0",
+    "streamlit==1.49.1",
+]
